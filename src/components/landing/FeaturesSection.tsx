@@ -45,7 +45,11 @@ const FeaturesSection = () => {
   return (
     <section className="py-32 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"%23f1f5f9\" fill-opacity=\"0.4\"%3E%3Cpath d=\"M20 20c0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8 8 3.6 8 8zm0 0c0 4.4 3.6 8 8 8s8-3.6 8-8-3.6-8-8-8-8 3.6-8 8z\"/%3E%3C/g%3E%3C/svg%3E')] opacity-30"></div>
+      <div className="absolute inset-0 opacity-30">
+        <div className="w-full h-full" style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f1f5f9' fill-opacity='0.4'%3E%3Cpath d='M20 20c0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8 8 3.6 8 8zm0 0c0 4.4 3.6 8 8 8s8-3.6 8-8-3.6-8-8-8-8 3.6-8 8z'/%3E%3C/g%3E%3C/svg%3E")`
+        }}></div>
+      </div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-20">
